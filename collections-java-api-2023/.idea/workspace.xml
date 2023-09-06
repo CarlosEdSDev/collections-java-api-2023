@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bbed849-f416-4cbf-b730-694713d82c63" name="Changes" comment="Adicionando lista de tarefas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhodeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" afterDir="false" />
+    <list default="true" id="2bbed849-f416-4cbf-b730-694713d82c63" name="Changes" comment="Adicionando Carrinho de Compras">
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/CatalogoLivros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/ListaTarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -45,13 +46,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CarrinhodeCompras">
+  <component name="RunManager" selected="Application.OrdenacaoPessoa">
     <configuration name="CarrinhodeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhodeCompras" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
+      <module name="collections-java-api-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrdenacaoPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoPessoa" />
+      <module name="collections-java-api-2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.list.Ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdenacaoPessoa" />
+        <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhodeCompras" />
         <item itemvalue="Application.ListaTarefa" />
       </list>
@@ -109,13 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693908137659</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando Carrinho de Compras">
+      <created>1693990880320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693990880320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Acionando o codigo novamente" />
     <MESSAGE value="Acionando o codigo 1.1" />
     <MESSAGE value="Adicionando lista de tarefas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando lista de tarefas" />
+    <MESSAGE value="Adicionando Carrinho de Compras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Carrinho de Compras" />
   </component>
 </project>

@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bbed849-f416-4cbf-b730-694713d82c63" name="Changes" comment="Update em SomaNumeros">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2bbed849-f416-4cbf-b730-694713d82c63" name="Changes" comment="Add OrdenacaoNumeros e 'Update' em SomaNumeros">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacaoBasicas/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacaoBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/OperacaoBasicas/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/GerenciadorAlunos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/ListaTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/Pesquisa/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/Pesquisa/SomaNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/SomaNumeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +60,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrdenacaoNumeros">
-    <configuration name="CarrinhodeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.OperacoesBasicas.CarrinhodeCompras" />
+  <component name="RunManager" selected="Application.GerenciadorAlunos">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Pesquisa.AgendaContatos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="main.java.set.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.CatalogoLivros" />
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoNumeros" />
+    <configuration name="ConjuntoPalavrasUnicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.OperacaoBasicas.ConjuntoPalavrasUnicas" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.set.OperacaoBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Ordenacao.OrdenacaoPessoa" />
+    <configuration name="GerenciadorAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Ordenacao.GerenciadorAlunos" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Ordenacao.*" />
+          <option name="PATTERN" value="main.java.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomaNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.Pesquisa.SomaNumeros" />
+    <configuration name="ListaTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.Pesquisa.ListaTarefas" />
       <module name="collections-java-api-2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="main.java.set.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrdenacaoNumeros" />
-        <item itemvalue="Application.SomaNumeros" />
-        <item itemvalue="Application.OrdenacaoPessoa" />
-        <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhodeCompras" />
+        <item itemvalue="Application.GerenciadorAlunos" />
+        <item itemvalue="Application.ListaTarefas" />
+        <item itemvalue="Application.ConjuntoPalavrasUnicas" />
+        <item itemvalue="Application.CadastroProdutos" />
+        <item itemvalue="Application.AgendaContatos" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694090116303</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add OrdenacaoNumeros e 'Update' em SomaNumeros">
+      <option name="closed" value="true" />
+      <created>1694093722787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694093722787</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +224,7 @@
     <MESSAGE value="Adicionando as embalagens Ordenacão e Pesquisa" />
     <MESSAGE value="Update em SomaNumeros.java" />
     <MESSAGE value="Update em SomaNumeros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update em SomaNumeros" />
+    <MESSAGE value="Add OrdenacaoNumeros e 'Update' em SomaNumeros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add OrdenacaoNumeros e 'Update' em SomaNumeros" />
   </component>
 </project>

@@ -2,7 +2,8 @@ package main.java.list.Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
+
+
 
 public class SomaNumeros {
     List<Integer> numeroList;
@@ -27,38 +28,69 @@ public class SomaNumeros {
 
     public int encontrarMaiorNumero(){
         if(!numeroList.isEmpty()){
-            int maior= 0;
+            int encontrarMaior= 0;
             boolean fist = true;
             for(Integer n:numeroList){
-                if(fist == true){
-                    maior = n;
+                if(fist){
+                    encontrarMaior = n;
                     fist = false;
                 }else {
-                if(maior< n){
-                        maior= n;
-                    }else { maior = maior;}
+                if(encontrarMaior< n){
+                        encontrarMaior= n;
+                    }
                 }
             }
-            return maior;
+            return encontrarMaior;
         }
        return 0;
     }
+    public int encontrarMenorNumero(){
+        if(!numeroList.isEmpty()){
+            int encontrarMenor= 0;
+            boolean fist = true;
+            for(Integer n:numeroList){
+                if(fist){
+                    encontrarMenor = n;
+                    fist = false;
+                }else {
+                    if(encontrarMenor> n){
+                        encontrarMenor= n;
+                    }
+                }
+            }
+            return encontrarMenor;
+        }
+        return 0;
+    }
 
-    public String toString() {
-        return "SomaNumeros{" +
-                "numeroList=" + numeroList +
-                '}';
+    public void exibirNumeros(){
+        if(!numeroList.isEmpty()) {
+            System.out.print("Numeros: ");
+            for (Integer n: numeroList){
+                System.out.print(n+" ");
+            }
+        }else{System.out.println("Lista vazia");}
     }
 
     public static void main(String[] args) {
-        SomaNumeros n = new SomaNumeros();
-        n.adicionarNumero(9);
-        n.adicionarNumero(10);
-        n.adicionarNumero(14);
-        n.adicionarNumero(8);
-        n.adicionarNumero(13);
-        System.out.println("Maior: "+n.encontrarMaiorNumero());
-        System.out.println("Soma: "+n.calcularSoma());
+        SomaNumeros numeros = new SomaNumeros();
+
+        numeros.adicionarNumero(9);
+        numeros.adicionarNumero(10);
+        numeros.adicionarNumero(14);
+        numeros.adicionarNumero(8);
+        numeros.adicionarNumero(13);
+
+        System.out.println("Encontrar Maior numero: "+numeros.encontrarMaiorNumero());
+
+        numeros.adicionarNumero(7);
+
+        System.out.println("Encontrar Menor numero: "+numeros.encontrarMenorNumero());
+
+        System.out.println("Somar Todos os numero: "+numeros.calcularSoma());
+
+        numeros.exibirNumeros();
+
 
     }
 
